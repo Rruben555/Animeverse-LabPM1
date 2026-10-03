@@ -1,5 +1,9 @@
 import 'package:animeverse/screens/signin_screen.dart';
 import 'package:animeverse/screens/signup_screen.dart';
+import 'package:animeverse/screens/home_screen.dart';
+import 'package:animeverse/screens/detail_screen.dart';
+import 'package:animeverse/screens/favorite_screen.dart';
+import 'package:animeverse/screens/profile_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,7 +20,12 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         fontFamily: 'Urbanist',
       ),
-      home: const SignUpScreen(),
+      // home: const SignInScreen(),
+      // home: const SignUpScreen(),
+      // home: const HomeScreen(),
+      // home: const DetailScreen(),
+      // home: const FavoriteScreen(),
+      home: const ProfileScreen(),
       debugShowCheckedModeBanner: false,
     );
   }
